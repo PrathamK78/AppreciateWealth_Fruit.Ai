@@ -1,9 +1,10 @@
-### Backend(Flask)
-### Frontend(React)
+### Backend is developed using Flask 
+### Frontend is developed using React
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, run:
+### `npm i` to install node_modules 
 
 ### `npm start`
 
@@ -14,7 +15,9 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 
-
 ### Sample user to login
 email = jane.doe@example.com
 password = securepassword
+
+### Sample OTP
+1234
