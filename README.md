@@ -1,15 +1,17 @@
 ### Backend(Flask)
-1. User Authentication
-2. Crud operations on FAQ (End-points given)
-
-
 ### Frontend(React)
-1. Login page
-2. Home page
-3. Chatbot page (Pending)
-4. Translator page
-5. Faq page
-6. About page
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 
 
