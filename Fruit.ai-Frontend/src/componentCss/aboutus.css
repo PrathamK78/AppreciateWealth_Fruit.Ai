@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+.fruit-ai-container {
+    height: 100vh;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* padding: 20px; */
+    position: relative;
+    overflow: hidden;
+    font-family: "Dosis", sans-serif;
+  }
+  
+  .blurred-fruits {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+  }
+  
+  .fruit {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    filter: blur(10px);
+  }
+  
+  .fruit-1 { background-color: rgba(128, 0, 128, 0.7); }
+  .fruit-2 { background-color: rgba(75, 0, 130, 0.7); }
+  .fruit-3 { background-color: rgba(0, 128, 128, 0.7); }
+  
+  .content-card {
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .title_about {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .about-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 258px;
+  }
+  
+  .about-button:hover {
+    background-color: #333;
+  }
+  
+  @media (max-width: 600px) {
+    .content-card {
+      padding: 20px;
+    }
+    
+    .title {
+      font-size: -20px;
+    }
+    
+    .description {
+      font-size: 12px;
+    }
+
+    .about-button{
+      width: 258px;
+    }
+  }
